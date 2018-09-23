@@ -1,5 +1,7 @@
 "use strict";
 
+const kafka = require('rdkafka');
+var Kafka = require('node-rdkafka');
 const {KafkaStreams} = require("./../index.js");
 const {nativeConfig: config} = require("./../test/test-config.js");
 //const BusinessNetworkConnection = require('composer-client').BusinessNetworkConnection;
