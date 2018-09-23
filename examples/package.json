@@ -9,6 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "composer-client": "^0.19.10"
+    "composer-client": "^0.19.10",
+    "node-rdkafka": "^2.4.2",
+    "rdkafka": "0.0.12"
   }
 }
